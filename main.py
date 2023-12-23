@@ -6,5 +6,5 @@ for i in range(0,len(st)):
     slovo = list(st[i])
     if slovo[0] not in al:
         konectext += ' ' + st[i]
-print(konectext.split(','))
+print(konectext.split(','),'KONEC')
 
